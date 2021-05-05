@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a0a8b8e4.chunk.css",
+    "main.js": "/portfolio/static/js/main.12d2ef64.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.12d2ef64.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
+    "static/js/2.592a6c78.chunk.js": "/portfolio/static/js/2.592a6c78.chunk.js",
+    "static/js/2.592a6c78.chunk.js.map": "/portfolio/static/js/2.592a6c78.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.a0a8b8e4.chunk.css.map": "/portfolio/static/css/main.a0a8b8e4.chunk.css.map",
+    "static/js/2.592a6c78.chunk.js.LICENSE.txt": "/portfolio/static/js/2.592a6c78.chunk.js.LICENSE.txt",
+    "static/media/blog.ad7102d8.jpg": "/portfolio/static/media/blog.ad7102d8.jpg",
+    "static/media/memory-game.e9ebc888.jpg": "/portfolio/static/media/memory-game.e9ebc888.jpg",
+    "static/media/pokedex.03da9436.jpg": "/portfolio/static/media/pokedex.03da9436.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76232b81.js",
+    "static/js/2.592a6c78.chunk.js",
+    "static/css/main.a0a8b8e4.chunk.css",
+    "static/js/main.12d2ef64.chunk.js"
+  ]
+}
