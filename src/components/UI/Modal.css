@@ -20,36 +20,36 @@
   width: 15%;
   background-color: gold;
   animation: popUp 0.25s linear 0s 1 normal forwards running;
-  opacity: 0%;
+  opacity: 0;
 }
 @keyframes popUp {
   30% {
-    opacity: 0%;
+    opacity: 0;
     height: 10%;
     width: 10%;
   }
   40% {
-    opacity: 20%;
+    opacity: 0.2;
     height: 20%;
     width: 20%;
   }
   50% {
-    opacity: 40%;
+    opacity: 0.4;
     height: 30%;
     width: 30%;
   }
   70% {
-    opacity: 60%;
+    opacity: 0.6;
     height: 40%;
     width: 40%;
   }
   85% {
-    opacity: 80%;
+    opacity: 0.8;
     height: 60%;
     width: 60%;
   }
   100% {
-    opacity: 100%;
+    opacity: 1;
     height: 80%;
     width: 80%;
   }
