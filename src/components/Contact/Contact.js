@@ -6,7 +6,7 @@ export default function Contact() {
     email: "",
     phone: "",
     message: "",
-    sum: ""
+    sum: "",
   });
 
   const handleChange = (e) => {
@@ -25,7 +25,7 @@ export default function Contact() {
       </div>
       <form
         method="post"
-        enctype="text/plain"
+        encType="text/plain"
         action="mailto:isselocreyo12@yopmail.com"
       >
         <div className="form-name">
