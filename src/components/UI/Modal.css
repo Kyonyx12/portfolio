@@ -59,32 +59,46 @@
     width: 76%;
   }
 }
-.modal-button {
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
+.modal-link-container {
   margin-top: 0.5rem;
+  height: 5%;
+  width: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.modal-link {
+  padding: 0.15rem;
+  height: 40px;
+  width: 40px;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+
   background-color: #00b0f0;
-  border-radius: 6px;
-  border: 1px solid #dcdcdc;
+  transition: all ease 300ms;
+  margin: 0.25rem;
   display: inline-block;
   cursor: pointer;
   color: white;
   font-family: "Zen Dots", cursive;
-  font-size: 8px;
-  letter-spacing: 2px;
-  padding: 3px 12px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
+  border-radius: 30px;
 }
-.modal-button:hover {
-  transform: scale(1.05);
-  color: #00b0f0;
-  background-color: #ffffff;
+.modal-link:hover {
+  transform: scale(1.15);
+  color: white;
+  background-color: #00b0f0;
 }
-.modal-button:active {
+.modal-link:active {
   position: relative;
   top: 1px;
 }
+.modal-link-icon:hover {
+  animation: rotation 0.5s 1;
+  color: white;
+}
 .modal-close {
+  height: 7.5%;
   transition: all ease 300ms;
   cursor: pointer;
   padding: 0;
@@ -103,8 +117,11 @@
   top: 1px;
 }
 .modal-close-icon {
-  height: 38px;
-  width: 38px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.modal-close-icon:hover {
+  animation: rotation 0.5s 1;
 }
 @keyframes rotation {
   from {
@@ -113,8 +130,4 @@
   to {
     -webkit-transform: rotate(359deg);
   }
-}
-.modal-close-icon:hover {
-  animation: rotation 1s 1;
-  color: white;
 }
