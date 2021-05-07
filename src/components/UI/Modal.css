@@ -16,42 +16,47 @@
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
+  align-items: center;
   height: 15%;
   width: 15%;
-  background-color: gold;
+  background-color: white;
   animation: popUp 0.25s linear 0s 1 normal forwards running;
   opacity: 0;
+}
+.modal-img {
+  height: 80%;
+  width: inherit;
 }
 @keyframes popUp {
   30% {
     opacity: 0;
     height: 10%;
-    width: 10%;
+    width: 5%;
   }
   40% {
     opacity: 0.2;
     height: 20%;
-    width: 20%;
+    width: 10%;
   }
   50% {
     opacity: 0.4;
     height: 30%;
-    width: 30%;
+    width: 15%;
   }
   70% {
     opacity: 0.6;
     height: 40%;
-    width: 40%;
+    width: 20%;
   }
   85% {
     opacity: 0.8;
     height: 60%;
-    width: 60%;
+    width: 40%;
   }
   100% {
     opacity: 1;
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 76%;
   }
 }
 .modal-button {
@@ -64,9 +69,9 @@
   cursor: pointer;
   color: white;
   font-family: "Zen Dots", cursive;
-  font-size: 10px;
+  font-size: 8px;
   letter-spacing: 2px;
-  padding: 6px 18px;
+  padding: 3px 12px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
 }
@@ -78,4 +83,38 @@
 .modal-button:active {
   position: relative;
   top: 1px;
+}
+.modal-close {
+  transition: all ease 300ms;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+  align-self: flex-end;
+  border: none;
+  background-color: inherit;
+}
+.modal-close:hover {
+  transform: scale(1.15);
+  color: #00b0f0;
+  background-color: #ffffff;
+}
+.modal-close:active {
+  position: relative;
+  top: 1px;
+}
+.modal-close-icon {
+  height: 38px;
+  width: 38px;
+}
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.modal-close-icon:hover {
+  animation: rotation 1s 1;
+  color: white;
 }
