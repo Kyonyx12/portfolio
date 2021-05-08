@@ -308,6 +308,26 @@ footer li {
   box-shadow: 2px 2px 2px 2px rgba(105, 102, 102, 0.5);
   padding: 0.5rem;
 }
+div.alt:hover {
+  position: relative;
+}
+div.alt span {
+  display: none;
+}
+div.alt:hover span {
+  padding: 5px 5px 5px 5px;
+  display: block;
+  z-index: 100;
+  background: rgba(58, 55, 55, 0.9);
+  left: -42px;
+  margin: 15px;
+  width: 140px;
+  position: absolute;
+  bottom: 100px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
 
 .experience {
   margin-top: 5rem;
