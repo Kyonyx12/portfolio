@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import {
   RiCloseCircleLine,
   RiGithubFill,
@@ -8,13 +9,26 @@ import "./Modal.css";
 export default function Modal({ selected, handleModal }) {
   const { project, site, code, img } = selected;
 
+  const [actualImg, setActualImg] = useState(true);
+
+  useEffect(() => {
+    const timeId = setTimeout(() => {
+      setActualImg(!actualImg);
+    }, 2500);
+    return () => clearTimeout(timeId);
+  }, [actualImg]);
+
   return (
     <div className="modal" onClick={() => handleModal()}>
       <div className="modal-info">
         <button onClick={() => handleModal()} className="modal-close">
           <RiCloseCircleLine className="modal-close-icon" color="#00b0f0" />
         </button>
-        <img src={img} alt={project} className="modal-img" />
+        <img
+          src={`${actualImg ? img[1] : img[0]}`}
+          alt={project}
+          className="modal-img"
+        />
         <div className="modal-link-container">
           <a
             className="modal-link"
@@ -22,7 +36,7 @@ export default function Modal({ selected, handleModal }) {
             target="_blank"
             rel="noreferrer"
           >
-            <RiExternalLinkFill size="2.5rem" className="modal-link-icon" />
+            <RiExternalLinkFill className="modal-link-icon" />
           </a>
           <a
             className="modal-link"
@@ -30,7 +44,7 @@ export default function Modal({ selected, handleModal }) {
             target="_blank"
             rel="noreferrer"
           >
-            <RiGithubFill size="2.5rem" className="modal-link-icon" />
+            <RiGithubFill className="modal-link-icon" />
           </a>
         </div>
       </div>

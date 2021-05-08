@@ -155,9 +155,11 @@ footer li {
   margin: 20px;
 }
 .hero-img {
-  min-height: 50.6vh;
-  background-image: url("https://placeimg.com/720/480/arch");
-  background-repeat: repeat;
+  min-height: 60vh;
+  max-width: 100%;
+  background-image: url("./assets/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-img section {
   backdrop-filter: blur(5px);
@@ -319,9 +321,9 @@ div.alt:hover span {
   display: block;
   z-index: 100;
   background: rgba(58, 55, 55, 0.9);
-  left: -42px;
+  left: -27px;
   margin: 15px;
-  width: 140px;
+  width: 112px;
   position: absolute;
   bottom: 100px;
   text-decoration: none;
@@ -367,6 +369,13 @@ div.alt:hover span {
 }
 
 @media screen and (max-width: 700px) {
+  .hero-img {
+    min-height: 50.6vh;
+    max-width: 100%;
+    background-image: url("./assets/cover.png");
+    background-repeat: repeat;
+    background-size: cover;
+  }
   .hidden {
     display: none;
   }
@@ -401,15 +410,27 @@ div.alt:hover span {
   .card-flex-items p {
     margin-left: 0;
     padding: 0 0.5rem 0 0.5rem;
+    max-width: none;
   }
   .card-flex-items {
+    width: 80vw;
     height: auto;
     padding-bottom: 0.5rem;
   }
-  .project {
-    width: 400px;
-    height: auto;
+  .overflow {
+    overflow: hidden;
   }
+  .hover {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+  .zoom-container {
+    display: none;
+  }
+
   .icon-bg {
     display: inline-flex;
     background-color: rgb(255, 255, 255);

@@ -1,15 +1,17 @@
 import { RiZoomInLine } from "react-icons/ri";
 
 export default function Card({ id, img, site, project, handleModal }) {
+  const imgDef = img[0];
+
   return (
     <article className="card-flex-items">
-      <div className="overflow">
+      <div className="overflow" onClick={() => handleModal(id)}>
         <div className="hover">
-          <div className="zoom-container" onClick={() => handleModal(id)}>
+          <div className="zoom-container">
             <RiZoomInLine className="zoom-icon" />
             <p className="zoom-name">{project}</p>
           </div>
-          <img src={img} alt={project} className="project" />
+          <img src={imgDef} alt={project} className="project" />
         </div>
       </div>
       <p>

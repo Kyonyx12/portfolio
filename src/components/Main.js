@@ -12,23 +12,27 @@ import pokedex from "../assets/pokedex/pokedex.jpg";
 import memoryGame from "../assets/memory-game/memory-game.jpg";
 import blog from "../assets/blog/blog.jpg";
 
+import pokedexPokemon from "../assets/pokedex/pokedex-pokemon.jpg";
+import memoryGameWin from "../assets/memory-game/memory-game-win.jpg";
+import about from "../assets/blog/about.jpg";
+
 const projects = [
   {
-    img: pokedex,
+    img: [pokedex, pokedexPokemon],
     project: "Pokedex",
     site: "https://kyonyx12.github.io/pokedex/",
     code: "https://github.com/Kyonyx12/pokedex/",
     id: "1",
   },
   {
-    img: blog,
+    img: [blog, about],
     project: "Blog",
     site: "https://kyonyx12.github.io/my-blog/",
     code: "https://github.com/Kyonyx12/my-blog/",
     id: "2",
   },
   {
-    img: memoryGame,
+    img: [memoryGame, memoryGameWin],
     project: "Memory Game",
     site: "https://kyonyx12.github.io/memory-game/",
     code: "https://github.com/Kyonyx12/memory-game/",

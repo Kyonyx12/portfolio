@@ -24,9 +24,11 @@
   opacity: 0;
 }
 .modal-img {
-  height: 80%;
+  height: 500px;
   width: inherit;
+  transition: all ease 300ms;
 }
+
 @keyframes popUp {
   30% {
     opacity: 0;
@@ -55,13 +57,13 @@
   }
   100% {
     opacity: 1;
-    height: 90%;
-    width: 76%;
+    height: auto;
+    width: 68%;
   }
 }
 .modal-link-container {
-  margin-top: 0.5rem;
-  height: 5%;
+  margin-top: 0.15rem;
+  height: 8%;
   width: inherit;
   display: flex;
   flex-flow: row wrap;
@@ -69,8 +71,8 @@
 }
 .modal-link {
   padding: 0.15rem;
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width: 2.5rem;
   box-shadow: inset 0px 1px 0px 0px #ffffff;
 
   background-color: #00b0f0;
@@ -93,6 +95,10 @@
   position: relative;
   top: 1px;
 }
+.modal-link-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
 .modal-link-icon:hover {
   animation: rotation 0.5s 1;
   color: white;
@@ -102,7 +108,7 @@
   transition: all ease 300ms;
   cursor: pointer;
   padding: 0;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 1rem 0;
   align-self: flex-end;
   border: none;
   background-color: inherit;
@@ -129,5 +135,25 @@
   }
   to {
     -webkit-transform: rotate(359deg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .modal-img {
+    height: auto;
+    width: 100%;
+  }
+  .modal-close-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .modal-link {
+    padding: 0.15rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .modal-link-icon {
+    width: 2rem;
+    height: 2rem;
   }
 }
