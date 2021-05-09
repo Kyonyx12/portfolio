@@ -1,0 +1,9 @@
+.Toastify__toast--info {
+  border: solid 1px white !important;
+  box-shadow: 0 4px 5px 0 #4b4c4d90 !important;
+  background: #36bed9 !important;
+}
+.Toastify__toast-container--top-right {
+  top: 56px !important;
+  right: -4px !important;
+}
