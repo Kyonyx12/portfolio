@@ -22,6 +22,7 @@ export default function Contact() {
     toast("Contact info submitted!", {
       type: "info",
     });
+    window.location = "https://joseantoniolopezramos.site/";
   };
 
   return (
@@ -38,7 +39,13 @@ export default function Contact() {
       >
         <div className="form-name">
           <label htmlFor="name">Name</label>
-          <input type="text" id={form.nameKey} name={form.nameKey} required />
+          <input
+            type="text"
+            id={form.nameKey}
+            name={form.nameKey}
+            defaultValue=""
+            required
+          />
         </div>
         <div className="form-name">
           <label htmlFor="email">Email</label>
@@ -46,15 +53,17 @@ export default function Contact() {
             type="email"
             id={form.emailKey}
             name={form.emailKey}
+            defaultValue=""
             required
           />
         </div>
         <div className="form-name">
-          <label htmlFor="message">Message</label>
+          <label htmlFor="">Message</label>
           <textarea
             type="text"
             id={form.messageKey}
             name={form.messageKey}
+            defaultValue=""
             required
           />
         </div>

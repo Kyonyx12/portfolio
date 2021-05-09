@@ -56,7 +56,6 @@ export default function Main() {
   const handleModal = (id) => {
     if (id) {
       const selected = projects.filter((project) => project.id === id);
-
       setSelected(...selected);
     }
     return setModal(!modal);
