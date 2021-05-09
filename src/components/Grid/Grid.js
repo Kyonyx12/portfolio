@@ -9,7 +9,7 @@ export default function Grid({ projects, handleModal }) {
       </div>
       <div className="grid-flex-container">
         {projects.map((actProject, ind) => {
-          const { img, site, project, id } = actProject;
+          const { img, site, project, id, description } = actProject;
           return (
             <Card
               handleModal={handleModal}
@@ -18,6 +18,7 @@ export default function Grid({ projects, handleModal }) {
               site={site}
               project={project}
               id={id}
+              description={description}
             />
           );
         })}

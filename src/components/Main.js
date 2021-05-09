@@ -21,6 +21,8 @@ const projects = [
     project: "Pokedex",
     site: "https://kyonyx12.github.io/pokedex/",
     code: "https://github.com/Kyonyx12/pokedex/",
+    description:
+      "Un pokedex cuyos diferentes pokemones pueden ser accesibles desde su unica y personalizada routa, un proyecto donde puse en practica React Router, use React moderno con el uso de los React Hooks, ademas de el uso de una REST API de pokemon.",
     id: "1",
   },
   {
@@ -28,6 +30,8 @@ const projects = [
     project: "Blog",
     site: "https://kyonyx12.github.io/my-blog/",
     code: "https://github.com/Kyonyx12/my-blog/",
+    description:
+      "Proyecto que usa la tecnologia Firebase; en especifico Firestore, ya que todos los post son traidos desde esta base de datos, este proyecto cuenta con una seccion para la escritura de nuevos post, que se publican en tiempo real, y ruta unica para cada articulo.",
     id: "2",
   },
   {
@@ -35,6 +39,8 @@ const projects = [
     project: "Memory Game",
     site: "https://kyonyx12.github.io/memory-game/",
     code: "https://github.com/Kyonyx12/memory-game/",
+    description:
+      "Un juego simple de memoria hecho con pokemons, sin duda uno de los proyectos mas divertidos, debido a la logica requerida para hacerlo funcionar, poniendo en practica algunos React Hooks, todo hecho con CSS puro.",
     id: "3",
   },
 ];

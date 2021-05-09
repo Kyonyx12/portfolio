@@ -24,6 +24,7 @@
   opacity: 0;
 }
 .modal-img {
+  box-shadow: 0 0 10px 1px #4b4c4d50;
   height: 500px;
   width: inherit;
   transition: all ease 300ms;

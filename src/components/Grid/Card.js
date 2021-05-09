@@ -1,6 +1,13 @@
 import { RiZoomInLine } from "react-icons/ri";
 
-export default function Card({ id, img, site, project, handleModal }) {
+export default function Card({
+  description,
+  id,
+  img,
+  site,
+  project,
+  handleModal,
+}) {
   const imgDef = img[0];
 
   return (
@@ -14,11 +21,7 @@ export default function Card({ id, img, site, project, handleModal }) {
           <img src={imgDef} alt={project} className="project" />
         </div>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet
-        erat tempor, consequat tellus nec, posuere massa. Praesent vel pretium
-        massa. Vestibulum porta in elit et condimentum.
-      </p>
+      <p>{description}</p>
       <a href={site} className="link" target="_blank" rel="noreferrer">
         See live demo
       </a>
