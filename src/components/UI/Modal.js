@@ -4,7 +4,7 @@ import {
   RiGithubFill,
   RiExternalLinkFill,
 } from "react-icons/ri";
-import "./Modal.css";
+import classes from "./Modal.module.css";
 
 export default function Modal({ selected, handleModal }) {
   const { project, site, code, img } = selected;
@@ -19,32 +19,38 @@ export default function Modal({ selected, handleModal }) {
   }, [actualImg]);
 
   return (
-    <div className="modal" onClick={() => handleModal()}>
-      <div className="modal-info">
-        <button onClick={() => handleModal()} className="modal-close">
-          <RiCloseCircleLine className="modal-close-icon" color="#00b0f0" />
+    <div className={classes.modal} onClick={() => handleModal()}>
+      <div className={classes["modal-info"]}>
+        <button
+          onClick={() => handleModal()}
+          className={classes["modal-close"]}
+        >
+          <RiCloseCircleLine
+            className={classes["modal-close-icon"]}
+            color="#00b0f0"
+          />
         </button>
         <img
           src={`${actualImg ? img[1] : img[0]}`}
           alt={project}
-          className="modal-img"
+          className={classes["modal-img"]}
         />
-        <div className="modal-link-container">
+        <div className={classes["modal-link-container"]}>
           <a
-            className="modal-link"
+            className={classes["modal-link"]}
             href={site}
             target="_blank"
             rel="noreferrer"
           >
-            <RiExternalLinkFill className="modal-link-icon" />
+            <RiExternalLinkFill className={classes["modal-link-icon"]} />
           </a>
           <a
-            className="modal-link"
+            className={classes["modal-link"]}
             href={code}
             target="_blank"
             rel="noreferrer"
           >
-            <RiGithubFill className="modal-link-icon" />
+            <RiGithubFill className={classes["modal-link-icon"]} />
           </a>
         </div>
       </div>

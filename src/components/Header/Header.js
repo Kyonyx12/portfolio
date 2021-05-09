@@ -73,7 +73,6 @@ export default function Header() {
               <p>Skill Set</p>
             </a>
           </li>
-
           <li>
             <a href="#contact" key="contact" onClick={() => setHidden(!hidden)}>
               <p>Contact</p>
