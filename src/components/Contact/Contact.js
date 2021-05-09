@@ -71,18 +71,10 @@ export default function Contact() {
             required
           />
         </div>
-        <div className="form-name">
-          <label htmlFor="sum">{"Num1 + Num2"}</label>
-          <input
-            type="number"
-            id="sum"
-            name="sum"
-            value={form.sum}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <input className="send" type="submit" />
+
+        <button className="send" type="submit">
+          Send
+        </button>
       </form>
     </section>
   );

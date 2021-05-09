@@ -92,7 +92,7 @@ form .send {
   border: 1px solid #dcdcdc;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
 
   font-size: 22px;
   padding: 5px;
@@ -118,7 +118,7 @@ input {
   padding: 5px;
   width: inherit;
   border: none;
-  background-color: #36bed9;
+  background-color: rgba(58, 55, 55, 0.5);
   border-bottom: solid 1px #ffffff60;
 }
 
@@ -130,11 +130,11 @@ footer {
   align-items: center;
   text-align: center;
   height: 8vh;
-  color: #fff;
-  background-color: rgba(58, 55, 55, 1);
+  color: #ffffff;
+  background-color: #36bed9;
 }
 footer a:hover {
-  color: #36bed9;
+  color: rgba(58, 55, 55, 1);
 }
 footer li {
   margin-top: 1rem;
@@ -351,9 +351,9 @@ div.alt:hover span {
 }
 .contact {
   width: inherit;
-  color: #fff;
+  color: rgba(58, 55, 55, 1);
   padding-top: 4rem;
-  background-color: #36bed9;
+  background-color: #ffffff;
 }
 .contact hr {
   background-image: linear-gradient(

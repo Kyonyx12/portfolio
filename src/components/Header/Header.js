@@ -47,11 +47,6 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#experience" key="experience">
-              <p>Experience</p>
-            </a>
-          </li>
-          <li>
             <a href="#contact">
               <p>Contact</p>
             </a>
@@ -78,15 +73,7 @@ export default function Header() {
               <p>Skill Set</p>
             </a>
           </li>
-          <li>
-            <a
-              href="#experience"
-              key="experience"
-              onClick={() => setHidden(!hidden)}
-            >
-              <p>Experience</p>
-            </a>
-          </li>
+
           <li>
             <a href="#contact" key="contact" onClick={() => setHidden(!hidden)}>
               <p>Contact</p>

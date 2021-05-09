@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Modal from "../components/UI/Modal";
 import Contact from "./Contact/Contact";
-import Experience from "./Experience/Experience";
 import Footer from "./Footer/Footer";
 import Grid from "./Grid/Grid";
 import Header from "./Header/Header";
@@ -63,7 +62,6 @@ export default function Main() {
         <Header />
         <Grid projects={projects} handleModal={handleModal} />
         <SkillSet />
-        <Experience />
         <Contact />
         <Footer />
       </main>

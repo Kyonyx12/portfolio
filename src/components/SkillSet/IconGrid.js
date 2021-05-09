@@ -7,6 +7,10 @@ import {
   SiGit,
   SiNpm,
   SiGithub,
+  SiFirebase,
+  SiRedux,
+  SiNodeDotJs,
+  SiTailwindcss,
 } from "react-icons/si";
 
 export default function IconGrid() {
@@ -14,51 +18,74 @@ export default function IconGrid() {
     <div className="flex-icons-container">
       <div className="icon-bg">
         <div className="icon alt">
-          <SiHtml5 size="5rem" color="#f47532" title="HTML5" />
+          <SiHtml5 size="5rem" color="#f47532" />
           <span>HTML</span>
         </div>
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiCss3 size="5rem" color="#2a9aca" title="CSS3" />
+          <SiCss3 size="5rem" color="#2a9aca" />
           <span>CSS3</span>
         </div>
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiBootstrap size="5rem" color="#5d3c7f" title="Bootstrap" />
-          <span>Bootstrap</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiJavascript size="5rem" color="#f7df1e" title="JavaScript" />
+          <SiJavascript size="5rem" color="#f7df1e" />
           <span>JavaScript</span>
         </div>
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiReact size="5rem" color="#61dbfb" title="React" />
+          <SiReact size="5rem" color="#61dbfb" />
           <span>React</span>
         </div>
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiGit size="5rem" color="#f05033" title="Git" />
+          <SiNodeDotJs size="5rem" color="#88c043" />
+          <span>Node.js</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiBootstrap size="5rem" color="#5d3c7f" />
+          <span>Bootstrap</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiTailwindcss size="5rem" color="#1cacbb" />
+          <span>Tailwind CSS</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiGit size="5rem" color="#f05033" />
           <span>Git</span>
         </div>
       </div>
-
       <div className="icon-bg">
         <div className="icon alt">
-          <SiGithub size="5rem" color="#191919" title="Github" />
+          <SiGithub size="5rem" color="#191919" />
           <span>GitHub</span>
         </div>
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiNpm size="5rem" color="#cc3534" title="NPM" />
+          <SiNpm size="5rem" color="#cc3534" />
           <span>NPM</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiFirebase size="5rem" color="#fc941c" />
+          <span>Firebase</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiRedux size="5rem" color="#7649bb" />
+          <span>Redux</span>
         </div>
       </div>
     </div>
