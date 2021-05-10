@@ -9,7 +9,7 @@ import {
   SiGithub,
   SiFirebase,
   SiRedux,
-  SiNodeDotJs,
+  SiNextDotJs,
   SiTailwindcss,
 } from "react-icons/si";
 
@@ -42,8 +42,14 @@ export default function IconGrid() {
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiNodeDotJs size="5rem" color="#88c043" />
-          <span>Node.js</span>
+          <SiNextDotJs size="5rem" color="#191919" />
+          <span>Next.js</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiRedux size="5rem" color="#7649bb" />
+          <span>Redux</span>
         </div>
       </div>
       <div className="icon-bg">
@@ -80,12 +86,6 @@ export default function IconGrid() {
         <div className="icon alt">
           <SiFirebase size="5rem" color="#fc941c" />
           <span>Firebase</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiRedux size="5rem" color="#7649bb" />
-          <span>Redux</span>
         </div>
       </div>
     </div>

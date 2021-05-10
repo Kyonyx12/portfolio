@@ -1,4 +1,4 @@
-import { FaNodeJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { RiComputerLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -18,7 +18,7 @@ export default function Header() {
               <div className="header-img-center">
                 <RiComputerLine size="4rem" />
               </div>
-              <FaNodeJs color="#88c043" size="2em" />
+              <FaReact color="#61dbfb" size="2em" />
             </div>
             <div className="header-info">
               <h1>Jose Antonio Lopez Ramos</h1>
