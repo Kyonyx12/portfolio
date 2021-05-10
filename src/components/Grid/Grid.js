@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "./Grid.css";
 
 export default function Grid({ projects, handleModal }) {
   return (

@@ -1,0 +1,18 @@
+.experience {
+  margin-top: 5rem;
+  color: rgb(75, 76, 77);
+}
+
+.exp-cards-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.exp-card {
+  margin: 2rem;
+}
+.exp-card img {
+  border-radius: 12%;
+  border: solid 6px #36bed9;
+}

@@ -1,5 +1,5 @@
 import { SiLinkedin, SiGithub, SiFacebook } from "react-icons/si";
-
+import "./Footer.css";
 export default function Footer() {
   const year = new Date();
 

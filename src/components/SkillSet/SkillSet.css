@@ -1,0 +1,64 @@
+.skill-set {
+  margin-top: 5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #fff;
+  background: linear-gradient(#36bed9, #29bad7);
+}
+.skill-set hr {
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #fffff999,
+    transparent
+  );
+}
+
+.flex-icons-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.icon-bg {
+  display: inline-flex;
+  background-color: rgb(255, 255, 255);
+  padding: 0.8rem;
+  border-radius: 20%;
+  margin: 100px;
+}
+
+.icon {
+  height: 80px;
+  box-shadow: 2px 2px 2px 2px rgba(105, 102, 102, 0.5);
+  padding: 0.5rem;
+}
+div.alt:hover {
+  position: relative;
+}
+div.alt span {
+  display: none;
+}
+div.alt:hover span {
+  padding: 5px 5px 5px 5px;
+  display: block;
+  z-index: 100;
+  background: rgba(58, 55, 55, 0.9);
+  left: -27px;
+  margin: 15px;
+  width: 112px;
+  position: absolute;
+  bottom: 100px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .icon-bg {
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    border-radius: 20%;
+    margin: 50px 5px 0 0;
+  }
+}

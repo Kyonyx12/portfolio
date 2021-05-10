@@ -1,0 +1,122 @@
+.grid-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.grid {
+  color: rgb(75, 76, 77);
+}
+.card-flex-items {
+  overflow: hidden;
+  height: 560px;
+  margin: 10px 30px;
+  box-shadow: 0 0 10px 1px #4b4c4d50;
+}
+.overflow {
+  overflow: hidden;
+}
+.hover {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  opacity: 1;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  transition: all ease 300ms;
+}
+.hover:hover {
+  transform: scale(1.1);
+  opacity: 0.75;
+}
+.project {
+  border-bottom: 2px solid rgb(75, 76, 77);
+  width: 400px;
+  height: 400px;
+}
+.zoom-container {
+  padding-top: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  opacity: 0;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  opacity: 0%;
+  background-color: #36bed9;
+  cursor: zoom-in;
+}
+
+@keyframes fadeIn {
+  25% {
+    padding-top: 1rem;
+    opacity: 0.25;
+  }
+  50% {
+    padding-top: 2rem;
+    opacity: 0.45;
+  }
+  75% {
+    padding-top: 3rem;
+    opacity: 0.65;
+  }
+  100% {
+    padding-top: 4rem;
+    opacity: 0.85;
+  }
+}
+.zoom-container:hover {
+  animation: fadeIn 300ms linear 0s 1 normal forwards running;
+  opacity: 0;
+}
+.zoom-icon {
+  height: 10rem;
+  width: 10rem;
+}
+.zoom-name {
+  font-size: 1.5rem;
+  color: white;
+}
+.card-flex-items p {
+  text-align: justify;
+  margin: 0 0 0 1rem;
+
+  max-width: 34ch;
+}
+.link {
+  margin-bottom: auto;
+  text-decoration: none;
+}
+.link:hover {
+  color: grey;
+}
+@media screen and (max-width: 700px) {
+  .card-flex-items p {
+    margin-left: 0;
+    padding: 0 0.5rem 0 0.5rem;
+    max-width: none;
+  }
+  .card-flex-items {
+    width: 80vw;
+    height: auto;
+    padding-bottom: 0.5rem;
+  }
+  .overflow {
+    overflow: hidden;
+  }
+  .hover {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+  .zoom-container {
+    display: none;
+  }
+}

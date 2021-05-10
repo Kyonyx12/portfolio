@@ -1,8 +1,9 @@
 import ExpCard from "./ExpCard";
+import "./Experience.css";
 const experience = [
   { company: "Empty", rol: "Front-end developer", fromTo: "2020-2021" },
   { company: "Null", rol: "Front-end developer", fromTo: "2020-2021" },
-  { company: "404", rol: "Front-end developer", fromTo: "2020-2021" }
+  { company: "404", rol: "Front-end developer", fromTo: "2020-2021" },
 ];
 export default function Experience() {
   return (

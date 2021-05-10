@@ -12,10 +12,6 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState(initialState);
 
-  // const handleChange = (e) => {
-  //   setForm({ ...form, [e.target.name]: e.target.value });
-  // };
-
   const handleSubmit = (e) => {
     setForm(initialState);
     setSubmitted(!submitted);

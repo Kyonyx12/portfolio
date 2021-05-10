@@ -1,5 +1,5 @@
 import IconGrid from "./IconGrid";
-
+import "./SkillSet.css";
 export default function SkillSet() {
   return (
     <section className="skill-set">
