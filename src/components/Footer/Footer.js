@@ -7,19 +7,29 @@ export default function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="#index.html">
+          <a
+            href="https://www.linkedin.com/in/jose-antonio-lopez-ramos-06199920b/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <SiLinkedin size="2rem" />
           </a>
         </li>
         <li>
-          <a href="#index.html">
+          <a
+            href="https://github.com/Kyonyx12"
+            target="_blank"
+            rel="noreferrer"
+          >
             <SiGithub size="2rem" />
           </a>
         </li>
         <li>
-          <a href="#index.html">
-            <SiFacebook size="2rem" />
-          </a>
+          <SiFacebook
+            size="2rem"
+            color="#ffffff99"
+            style={{ cursor: "not-allowed" }}
+          />
         </li>
       </ul>
       <p>
