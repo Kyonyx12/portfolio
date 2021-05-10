@@ -22,7 +22,7 @@ const projects = [
     site: "https://kyonyx12.github.io/pokedex/",
     code: "https://github.com/Kyonyx12/pokedex/",
     description:
-      "Un pokedex cuyos diferentes pokemones pueden ser accesibles desde su unica y personalizada routa, un proyecto donde puse en practica React Router, use React moderno con el uso de los React Hooks, ademas de el uso de una REST API de pokemon.",
+      "A pokedex where all individual pokemons have is unique and personalized route, a proyect where I practice React Router, and modern React feautures like Hooks, also all the data is coming from the RESTful API of PokeAPI.co",
     id: "1",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     site: "https://kyonyx12.github.io/my-blog/",
     code: "https://github.com/Kyonyx12/my-blog/",
     description:
-      "Proyecto que usa la tecnologia Firebase; en especifico Firestore, ya que todos los post son traidos desde esta base de datos, este proyecto cuenta con una seccion para la escritura de nuevos post, que se publican en tiempo real, y ruta unica para cada articulo.",
+      "Proyect that uses the cloud technology, Firebase, to be specific Firestore, since all the post showed are coming from that data base, this proyect has a unique section where the admin can write new articles, and post them in real time.",
     id: "2",
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     site: "https://kyonyx12.github.io/memory-game/",
     code: "https://github.com/Kyonyx12/memory-game/",
     description:
-      "Un juego simple de memoria hecho con pokemons, sin duda uno de los proyectos mas divertidos, debido a la logica requerida para hacerlo funcionar, poniendo en practica algunos React Hooks, todo hecho con CSS puro.",
+      "A simple memory game made with pokemons, without doubt one of the most fun proyects I made so far, specially for the logic involved to make it work, all styles, animations and responsive layout made with pure vanilla CSS.",
     id: "3",
   },
 ];
