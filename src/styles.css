@@ -69,7 +69,26 @@ section {
 .display li {
   display: none;
 }
-
+div.alt:hover {
+  position: relative;
+}
+div.alt span {
+  display: none;
+}
+div.alt:hover span {
+  padding: 5px 5px 5px 5px;
+  display: block;
+  z-index: 100;
+  background: rgba(58, 55, 55, 0.9);
+  left: -27px;
+  margin: 15px;
+  width: 112px;
+  position: absolute;
+  bottom: 100px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
 @keyframes popUp {
   0% {
     z-index: 1;

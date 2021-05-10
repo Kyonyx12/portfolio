@@ -1,5 +1,5 @@
 .modal {
-  font-family: "Zen Dots", cursive;
+  font-family: "Karla", sans-serif;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -82,7 +82,7 @@
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: "Zen Dots", cursive;
+  font-family: "Karla", sans-serif;
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
   border-radius: 30px;
@@ -129,6 +129,25 @@
 }
 .modal-close-icon:hover {
   animation: rotation 0.5s 1;
+}
+
+div.altInfo span {
+  display: none;
+}
+div.altInfo:hover span {
+  padding: 2.5px 2.5px 2.5px 2.5px;
+  display: block;
+  z-index: 100;
+  background: rgba(58, 55, 55, 0.9);
+  left: -34px;
+  margin: 15px;
+  width: 76px;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 12px;
 }
 @keyframes rotation {
   from {

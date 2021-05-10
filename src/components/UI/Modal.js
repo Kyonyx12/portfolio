@@ -42,15 +42,21 @@ export default function Modal({ selected, handleModal }) {
             target="_blank"
             rel="noreferrer"
           >
-            <RiExternalLinkFill className={classes["modal-link-icon"]} />
-          </a>
+            <div className={classes.altInfo}>
+              <RiExternalLinkFill className={classes["modal-link-icon"]} />
+              <span>Link</span>
+            </div>
+          </a>{" "}
           <a
             className={classes["modal-link"]}
             href={code}
             target="_blank"
             rel="noreferrer"
           >
-            <RiGithubFill className={classes["modal-link-icon"]} />
+            <div className={classes.altInfo}>
+              <RiGithubFill className={classes["modal-link-icon"]} />
+              <span>Repository</span>
+            </div>
           </a>
         </div>
       </div>
