@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { toast } from "react-toastify";
 import "./Contact.css";
 
 const initialState = {
@@ -15,9 +14,6 @@ export default function Contact() {
   const handleSubmit = (e) => {
     setForm(initialState);
     setSubmitted(!submitted);
-    toast("Contact info submitted!", {
-      type: "info",
-    });
     window.location = "https://joseantoniolopezramos.site/";
   };
 
