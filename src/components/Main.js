@@ -13,7 +13,7 @@ import blog from "../assets/blog/blog.jpg";
 
 import pokedexPokemon from "../assets/pokedex/pokedex-pokemon.jpg";
 import memoryGameWin from "../assets/memory-game/memory-game-win.jpg";
-import about from "../assets/blog/about.jpg";
+import about from "../assets/blog/about.png";
 
 const projects = [
   {
