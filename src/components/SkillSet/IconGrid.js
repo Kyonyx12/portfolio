@@ -42,18 +42,6 @@ export default function IconGrid() {
       </div>
       <div className="icon-bg">
         <div className="icon alt">
-          <SiNextDotJs size="5rem" color="#191919" />
-          <span>Next.js</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiRedux size="5rem" color="#7649bb" />
-          <span>Redux</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
           <SiBootstrap size="5rem" color="#5d3c7f" />
           <span>Bootstrap</span>
         </div>
