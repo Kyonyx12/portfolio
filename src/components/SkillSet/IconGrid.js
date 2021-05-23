@@ -8,7 +8,7 @@ import {
   SiNpm,
   SiGithub,
   SiFirebase,
-  SiRedux,
+  SiMongodb,
   SiNextDotJs,
   SiTailwindcss,
 } from "react-icons/si";
@@ -74,6 +74,18 @@ export default function IconGrid() {
         <div className="icon alt">
           <SiFirebase size="5rem" color="#fc941c" />
           <span>Firebase</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiNextDotJs size="5rem" color="#191919" />
+          <span>Next.js</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiMongodb size="5rem" color="#4ea94b" />
+          <span>MongoDB</span>
         </div>
       </div>
     </div>
