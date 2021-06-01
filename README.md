@@ -2,7 +2,7 @@
 
 <hr />
 <div className="center">
-![ Alt text](portfolio.gif) [](portfolio.gif)
+    <img src="portfolio.gif" alt="animated" />
 </div>
 <div>
 <hr />
