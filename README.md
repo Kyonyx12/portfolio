@@ -6,7 +6,7 @@
 <br>
 <hr />
 </h2>
-
+<div>
 <h2>Features:</h2>
 
 <hr />
