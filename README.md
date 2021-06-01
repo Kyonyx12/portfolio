@@ -1,7 +1,7 @@
 # A clean and responsive portfolio for my projects
 
 <hr />
-<div className="center">
+<div class="center">
     <img src="portfolio.gif" alt="animated" />
 </div>
 <div>
