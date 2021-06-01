@@ -25,8 +25,9 @@
     <li>HTML</li>
     <li>React-Icons</li>
 <ul>
-<hr/>
+
 </div>
+<hr/>
 <div>
 <h2>See live demo, <a target="_blank" href="https://joseantoniolopezramos.site/">Click here</a>.</h2>
 </div>
