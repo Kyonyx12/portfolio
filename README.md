@@ -13,6 +13,7 @@
     <li>Minimalist</li>
     <li>Pure vanilla CSS</li>
 <ul>
+<br/>
 <hr/>
 
 <h2>Technologies used:</h2>
