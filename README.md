@@ -1,10 +1,9 @@
 # A clean and responsive portfolio for my projects
 
 <hr />
-<div class="center">
-    <img src="portfolio.gif" alt="animated" />
-</div>
-<div>
+
+<img src="portfolio.gif" alt="animated" />
+
 <hr />
 
 <h2>Features:</h2>
