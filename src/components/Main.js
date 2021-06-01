@@ -10,10 +10,12 @@ import SkillSet from "./SkillSet/SkillSet";
 import pokedex from "../assets/pokedex/pokedex.jpg";
 import memoryGame from "../assets/memory-game/memory-game.jpg";
 import blog from "../assets/blog/blog.jpg";
+import portfolio from "../assets/portfolio/portfolio.jpg";
 
 import pokedexPokemon from "../assets/pokedex/pokedex-pokemon.jpg";
 import memoryGameWin from "../assets/memory-game/memory-game-win.jpg";
 import about from "../assets/blog/about.png";
+import portfolioProjects from "../assets/portfolio/portfolioProjects.jpg";
 
 const projects = [
   {
@@ -42,6 +44,15 @@ const projects = [
     description:
       "A simple memory game made with pokemons, without doubt one of the most fun proyects I made so far, specially for the logic involved to make it work, all styles, animations and responsive layout made with pure vanilla CSS.",
     id: "3",
+  },
+  {
+    img: [portfolio, portfolioProjects],
+    project: "Portfolio",
+    site: "https://joseantoniolopezramos.site/",
+    code: "https://github.com/Kyonyx12/portfolio/",
+    description:
+      "A minimalist portfolio page to show my projects and in the near future my experience too, made with Reactjs (eventually Next.js to improve loading time, and to add lazy load), pure Vanilla CSS, React-Icons, a couple of coffee cups and  a lot of ❤️. ",
+    id: "4",
   },
 ];
 
