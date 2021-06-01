@@ -2,6 +2,7 @@
 
 ![ Alt text](portfolio.gif) [](portfolio.gif)
 
+<div>
 <hr />
 
 <h2>Features:</h2>
@@ -13,7 +14,8 @@
     <li>Minimalist</li>
     <li>Pure vanilla CSS</li>
 <ul>
-
+</div>
+<div>
 <h2>Technologies used:</h2>
 
 <hr />
@@ -24,5 +26,5 @@
     <li>React-Icons</li>
 <ul>
 <hr/>
-
+</div>
 <h2>See live demo, <a target="_blank" href="https://joseantoniolopezramos.site/">Click here</a>.</h2>
