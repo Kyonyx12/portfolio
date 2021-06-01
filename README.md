@@ -1,7 +1,9 @@
 # A clean and responsive portfolio for my projects
 
+<hr />
+<div className="center">
 ![ Alt text](portfolio.gif) [](portfolio.gif)
-
+</div>
 <div>
 <hr />
 
@@ -25,7 +27,6 @@
     <li>HTML</li>
     <li>React-Icons</li>
 <ul>
-
 </div>
 <hr/>
 <div>
