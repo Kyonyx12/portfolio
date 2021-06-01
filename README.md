@@ -5,7 +5,7 @@
 <img src="portfolio.gif" alt="animated" />
 
 <hr />
-
+<div>
 <h2>Features:</h2>
 
 <hr />
