@@ -112,6 +112,5 @@ div.alt:hover span {
 
 /*Markdown CENTER*/
 .center {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
