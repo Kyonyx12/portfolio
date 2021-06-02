@@ -21,10 +21,10 @@ const projects = [
   {
     img: [pokedex, pokedexPokemon],
     project: "Pokedex",
-    site: "https://kyonyx12.github.io/pokedex/",
-    code: "https://github.com/Kyonyx12/pokedex/",
+    site: "https://pokedex-next-kappa.vercel.app/",
+    code: "https://github.com/Kyonyx12/pokedex-next",
     description:
-      "A pokedex where all individual pokemons have his unique and personalized route, a proyect where I practice React Router, and modern React feautures like Hooks, also all the data is coming from the RESTful API of PokeAPI.co",
+      "A pokedex where all individual pokemons have his unique and personalized route, a proyect where I practice NextJS (SSR & SSG), and modern React feautures like Hooks, also all the data is coming from the RESTful API of PokeAPI.co.",
     id: "1",
   },
   {
