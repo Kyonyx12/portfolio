@@ -3,6 +3,7 @@ import { SiJavascript } from "react-icons/si";
 import { RiComputerLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+
 import "./Header.css";
 
 export default function Header() {

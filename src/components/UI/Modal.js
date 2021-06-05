@@ -4,6 +4,9 @@ import {
   RiGithubFill,
   RiExternalLinkFill,
 } from "react-icons/ri";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import classes from "./Modal.module.css";
 
 export default function Modal({ selected, handleModal }) {
@@ -30,7 +33,7 @@ export default function Modal({ selected, handleModal }) {
             color="#00b0f0"
           />
         </button>
-        <img
+        <LazyLoadImage
           src={`${actualImg ? img[1] : img[0]}`}
           alt={project}
           className={classes["modal-img"]}

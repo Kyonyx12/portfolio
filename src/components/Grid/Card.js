@@ -1,4 +1,5 @@
 import { RiZoomInLine } from "react-icons/ri";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Card({
   description,
@@ -18,7 +19,7 @@ export default function Card({
             <RiZoomInLine className="zoom-icon" />
             <p className="zoom-name">{project}</p>
           </div>
-          <img src={imgDef} alt={project} className="project" />
+          <LazyLoadImage src={imgDef} alt={project} className="project" />
         </div>
       </div>
       <p>{description}</p>
