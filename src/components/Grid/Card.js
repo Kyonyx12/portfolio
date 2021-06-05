@@ -1,5 +1,6 @@
 import { RiZoomInLine } from "react-icons/ri";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Card({
   description,
@@ -19,7 +20,12 @@ export default function Card({
             <RiZoomInLine className="zoom-icon" />
             <p className="zoom-name">{project}</p>
           </div>
-          <LazyLoadImage src={imgDef} alt={project} className="project" />
+          <LazyLoadImage
+            effect="blur"
+            src={imgDef}
+            alt={project}
+            className="project"
+          />
         </div>
       </div>
       <p>{description}</p>
