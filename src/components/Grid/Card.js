@@ -1,5 +1,8 @@
 import { RiZoomInLine } from "react-icons/ri";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
+import placeholder from "../../assets/placeholder.png";
+
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Card({
@@ -25,6 +28,7 @@ export default function Card({
             src={imgDef}
             alt={project}
             className="project"
+            placeholderSrc={placeholder}
           />
         </div>
       </div>
