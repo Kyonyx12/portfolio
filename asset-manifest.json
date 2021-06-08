@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5ec19129.chunk.css",
-    "main.js": "/static/js/main.e7c1d147.chunk.js",
-    "main.js.map": "/static/js/main.e7c1d147.chunk.js.map",
+    "main.js": "/static/js/main.7e62bb6d.chunk.js",
+    "main.js.map": "/static/js/main.7e62bb6d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.6ef2fac9.chunk.css": "/static/css/2.6ef2fac9.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/placeholder.60daf01b.png": "/static/media/placeholder.60daf01b.png",
     "static/media/pokedex-pokemon.f6a52bd4.jpg": "/static/media/pokedex-pokemon.f6a52bd4.jpg",
     "static/media/pokedex.03da9436.jpg": "/static/media/pokedex.03da9436.jpg",
-    "static/media/portfolio.a34d35ee.jpg": "/static/media/portfolio.a34d35ee.jpg",
+    "static/media/portfolio.cb1e2122.jpg": "/static/media/portfolio.cb1e2122.jpg",
     "static/media/portfolioProjects.fd978729.jpg": "/static/media/portfolioProjects.fd978729.jpg"
   },
   "entrypoints": [
@@ -28,6 +28,6 @@
     "static/css/2.6ef2fac9.chunk.css",
     "static/js/2.47a6aa15.chunk.js",
     "static/css/main.5ec19129.chunk.css",
-    "static/js/main.e7c1d147.chunk.js"
+    "static/js/main.7e62bb6d.chunk.js"
   ]
 }
