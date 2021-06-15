@@ -5,7 +5,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 8vh;
+  height: 16vh;
   color: #ffffff;
   background-color: #36bed9;
 }
@@ -23,7 +23,7 @@ footer li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 12vh;
+    height: 14vh;
     color: #fff;
     background-color: rgba(58, 55, 55, 1);
   }

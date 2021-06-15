@@ -6,11 +6,11 @@ import {
   SiJavascript,
   SiGit,
   SiNpm,
-  SiGithub,
   SiFirebase,
   SiRedux,
   SiNextDotJs,
-  SiTailwindcss,
+  SiMaterialUi,
+  SiTypescript,
 } from "react-icons/si";
 
 export default function IconGrid() {
@@ -36,44 +36,14 @@ export default function IconGrid() {
       </div>
       <div className="icon-bg">
         <div className="icon alt">
+          <SiTypescript size="5rem" color="#007acc" />
+          <span>TypeScript</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
           <SiReact size="5rem" color="#61dbfb" />
           <span>React</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiBootstrap size="5rem" color="#5d3c7f" />
-          <span>Bootstrap</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiTailwindcss size="5rem" color="#1cacbb" />
-          <span>Tailwind CSS</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiGit size="5rem" color="#f05033" />
-          <span>Git</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiGithub size="5rem" color="#191919" />
-          <span>GitHub</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiNpm size="5rem" color="#cc3534" />
-          <span>NPM</span>
-        </div>
-      </div>
-      <div className="icon-bg">
-        <div className="icon alt">
-          <SiFirebase size="5rem" color="#fc941c" />
-          <span>Firebase</span>
         </div>
       </div>
       <div className="icon-bg">
@@ -86,6 +56,36 @@ export default function IconGrid() {
         <div className="icon alt">
           <SiRedux size="5rem" color="#764abc" />
           <span>Redux</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiMaterialUi size="5rem" color="#1eb1fc" />
+          <span>Material UI</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiBootstrap size="5rem" color="#5d3c7f" />
+          <span>Bootstrap</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiGit size="5rem" color="#f05033" />
+          <span>Git</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiNpm size="5rem" color="#cc3534" />
+          <span>NPM</span>
+        </div>
+      </div>
+      <div className="icon-bg">
+        <div className="icon alt">
+          <SiFirebase size="5rem" color="#fc941c" />
+          <span>Firebase</span>
         </div>
       </div>
     </div>

@@ -1,179 +1,21 @@
 .modal {
-  font-family: "Karla", sans-serif;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
   position: fixed;
   z-index: 3;
-  height: 100vh;
-  width: 100%;
+  height: 100%;
+  width: 100vw;
   background-color: #00000099;
-}
-.modal-info {
-  padding: 1rem;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  height: 15%;
-  width: 15%;
-  background-color: white;
-  animation: popUp 0.25s linear 0s 1 normal forwards running;
-  opacity: 0;
-}
-.modal-img {
-  box-shadow: 0 0 10px 1px #4b4c4d50;
-  height: 500px;
-  width: inherit;
-  transition: all ease 300ms;
+  padding-top: 2rem;
 }
 
-@keyframes popUp {
-  30% {
-    opacity: 0;
-    height: 10%;
-    width: 5%;
-  }
-  40% {
-    opacity: 0.2;
-    height: 20%;
-    width: 10%;
-  }
-  50% {
-    opacity: 0.4;
-    height: 30%;
-    width: 15%;
-  }
-  70% {
-    opacity: 0.6;
-    height: 40%;
-    width: 20%;
-  }
-  85% {
-    opacity: 0.8;
-    height: 60%;
-    width: 40%;
-  }
-  100% {
-    opacity: 1;
-    height: auto;
-    width: 68%;
-  }
-}
-.modal-link-container {
-  margin-top: 0.15rem;
-  height: 8%;
-  width: inherit;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-.modal-link {
-  padding: 0.15rem;
-  height: 2.5rem;
-  width: 2.5rem;
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
-
-  background-color: #00b0f0;
-  transition: all ease 300ms;
-  margin: 0.25rem;
-  display: inline-block;
-  cursor: pointer;
-  color: white;
-  font-family: "Karla", sans-serif;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
-  border-radius: 30px;
-}
-.modal-link:hover {
-  transform: scale(1.15);
-  color: white;
-  background-color: #00b0f0;
-}
-.modal-link:active {
-  position: relative;
-  top: 1px;
-}
-.modal-link-icon {
-  height: 2.5rem;
-  width: 2.5rem;
-}
-.modal-link-icon:hover {
-  animation: rotation 0.5s 1;
-  color: white;
-}
-.modal-close {
-  height: 7.5%;
-  transition: all ease 300ms;
-  cursor: pointer;
-  padding: 0;
-  margin: 0 0 1rem 0;
-  align-self: flex-end;
-  border: none;
-  background-color: inherit;
-}
-.modal-close:hover {
-  transform: scale(1.15);
-  color: #00b0f0;
-  background-color: #ffffff;
-}
-.modal-close:active {
-  position: relative;
-  top: 1px;
-}
-.modal-close-icon {
-  height: 3.5rem;
-  width: 3.5rem;
-}
-.modal-close-icon:hover {
-  animation: rotation 0.5s 1;
+.modalIcon:hover {
+  animation: rotation 0.4s 1;
 }
 
-div.altInfo span {
-  display: none;
-}
-div.altInfo:hover span {
-  padding: 2.5px 2.5px 2.5px 2.5px;
-  display: block;
-  z-index: 100;
-  background: rgba(58, 55, 55, 0.9);
-  left: -34px;
-  margin: 15px;
-  width: 76px;
-  position: absolute;
-  bottom: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-  font-size: 12px;
-}
 @keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(359deg);
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .modal-img {
-    height: auto;
-    width: 100%;
-  }
-  .modal-close-icon {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .modal-link {
-    padding: 0.15rem;
-    height: 2rem;
-    width: 2rem;
-  }
-  .modal-link-icon {
-    width: 2rem;
-    height: 2rem;
   }
 }

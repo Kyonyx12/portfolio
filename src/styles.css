@@ -1,3 +1,13 @@
+html * {
+  font-family: "Karla", sans-serif !important;
+}
+
+dl,
+ol,
+ul {
+  margin-bottom: 0 !important;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -88,6 +98,18 @@ div.alt:hover span {
   text-decoration: none;
   border-radius: 20px;
   font-size: 15px;
+}
+.sr-only {
+  display: none;
+}
+.carousel-control-prev-icon {
+  border-radius: 12px;
+  background-color: #00000099;
+}
+
+.carousel-control-next-icon {
+  border-radius: 12px;
+  background-color: #00000099;
 }
 @keyframes popUp {
   0% {

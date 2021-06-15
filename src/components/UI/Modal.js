@@ -1,65 +1,77 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import {
   RiCloseCircleLine,
   RiGithubFill,
   RiExternalLinkFill,
 } from "react-icons/ri";
-
-import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import { Carousel } from "react-bootstrap";
 import classes from "./Modal.module.css";
 
 export default function Modal({ selected, handleModal }) {
-  const { project, site, code, img } = selected;
-
-  const [actualImg, setActualImg] = useState(true);
-
-  useEffect(() => {
-    const timeId = setTimeout(() => {
-      setActualImg(!actualImg);
-    }, 2500);
-    return () => clearTimeout(timeId);
-  }, [actualImg]);
+  const { img, site, code } = selected;
 
   return (
-    <div className={classes.modal} onClick={() => handleModal()}>
-      <div className={classes["modal-info"]}>
-        <button
-          onClick={() => handleModal()}
-          className={classes["modal-close"]}
+    <div className={classes.modal}>
+      <div className="d-flex justify-content-center">
+        <div
+          style={{ backgroundColor: "#fff", width: "50vw" }}
+          className="d-flex justify-content-end"
         >
           <RiCloseCircleLine
-            className={classes["modal-close-icon"]}
-            color="#00b0f0"
+            size="3rem"
+            color="#36bed9"
+            onClick={handleModal}
+            style={{ cursor: "pointer" }}
+            className={classes.modalIcon}
           />
-        </button>
-        <LazyLoadImage
-          src={`${actualImg ? img[1] : img[0]}`}
-          alt={project}
-          className={classes["modal-img"]}
-        />
-        <div className={classes["modal-link-container"]}>
-          <a
-            className={classes["modal-link"]}
-            href={site}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className={classes.altInfo}>
-              <RiExternalLinkFill className={classes["modal-link-icon"]} />
-              <span>Link</span>
+        </div>
+      </div>
+      <div className="d-flex justify-content-center">
+        <Carousel style={{ maxWidth: "50%" }}>
+          <Carousel.Item>
+            <div
+              className="d-flex justify-content-center "
+              style={{ height: "600px", minWidth: "50vw" }}
+            >
+              <img
+                src={img[0]}
+                alt="First slide"
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
-          </a>{" "}
-          <a
-            className={classes["modal-link"]}
-            href={code}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className={classes.altInfo}>
-              <RiGithubFill className={classes["modal-link-icon"]} />
-              <span>Repository</span>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div
+              className="d-flex justify-content-center "
+              style={{ height: "600px", minWidth: "50vw" }}
+            >
+              <img
+                src={img[1]}
+                alt="Second slide"
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className="d-flex justify-content-center">
+        <div
+          style={{ backgroundColor: "#fff", width: "50vw" }}
+          className="d-flex justify-content-center"
+        >
+          <a target="_blank" rel="noreferrer" href={site}>
+            <RiExternalLinkFill
+              size="3rem"
+              color="#36bed9"
+              className={classes.modalIcon}
+            />
+          </a>
+          <a rel="noreferrer" target="_blank" href={code}>
+            <RiGithubFill
+              size="3rem"
+              color="#36bed9"
+              className={classes.modalIcon}
+            />
           </a>
         </div>
       </div>

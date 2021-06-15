@@ -16,6 +16,8 @@ import pokedexPokemon from "../assets/pokedex/pokedex-pokemon.jpg";
 import memoryGameWin from "../assets/memory-game/memory-game-win.jpg";
 import about from "../assets/blog/about.png";
 import portfolioProjects from "../assets/portfolio/portfolioProjects.jpg";
+import todoApp from "../assets/todoapp/todoapp.png";
+import todoAppLogin from "../assets/todoapp/todoapp-login.png";
 
 const projects = [
   {
@@ -37,12 +39,12 @@ const projects = [
     id: "2",
   },
   {
-    img: [memoryGame, memoryGameWin],
-    project: "Memory Game",
-    site: "https://kyonyx12.github.io/memory-game/",
-    code: "https://github.com/Kyonyx12/memory-game/",
+    img: [todoApp, todoAppLogin],
+    project: "TodoApp",
+    site: "https://kyonyx12.github.io/todo-app/#/",
+    code: "https://github.com/Kyonyx12/todo-app",
     description:
-      "A simple memory game made with pokemons, without doubt one of the most fun proyects I made so far, specially for the logic involved to make it work, all styles, animations and responsive layout made with pure vanilla CSS.",
+      "A todo app where you can create, edit and delete todos, proyect where I practice TypeScript, Redux and Material UI, mobile first, fully responsive, all new todos are saved in your account, and fetched from the Firestore database of Firebase.",
     id: "3",
   },
   {
@@ -53,6 +55,15 @@ const projects = [
     description:
       "A minimalist portfolio page to show my projects and in the near future my experience too, made with Reactjs (eventually Next.js to improve loading time, and to add lazy load), pure Vanilla CSS, React-Icons, a couple of coffee cups and  a lot of ❤️. ",
     id: "4",
+  },
+  {
+    img: [memoryGame, memoryGameWin],
+    project: "Memory Game",
+    site: "https://kyonyx12.github.io/memory-game/",
+    code: "https://github.com/Kyonyx12/memory-game/",
+    description:
+      "A simple memory game made with pokemons, without doubt one of the most fun proyects I made so far, specially for the logic involved to make it work, all styles, animations and responsive layout made with pure vanilla CSS.",
+    id: "5",
   },
 ];
 
