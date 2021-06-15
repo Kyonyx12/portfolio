@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ec19129.chunk.css",
-    "main.js": "/static/js/main.7e62bb6d.chunk.js",
-    "main.js.map": "/static/js/main.7e62bb6d.chunk.js.map",
+    "main.css": "/static/css/main.413d6486.chunk.css",
+    "main.js": "/static/js/main.ccb5551e.chunk.js",
+    "main.js.map": "/static/js/main.ccb5551e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/css/2.6ef2fac9.chunk.css": "/static/css/2.6ef2fac9.chunk.css",
-    "static/js/2.47a6aa15.chunk.js": "/static/js/2.47a6aa15.chunk.js",
-    "static/js/2.47a6aa15.chunk.js.map": "/static/js/2.47a6aa15.chunk.js.map",
+    "static/css/2.dbc3967e.chunk.css": "/static/css/2.dbc3967e.chunk.css",
+    "static/js/2.23e888c2.chunk.js": "/static/js/2.23e888c2.chunk.js",
+    "static/js/2.23e888c2.chunk.js.map": "/static/js/2.23e888c2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.6ef2fac9.chunk.css.map": "/static/css/2.6ef2fac9.chunk.css.map",
-    "static/css/main.5ec19129.chunk.css.map": "/static/css/main.5ec19129.chunk.css.map",
-    "static/js/2.47a6aa15.chunk.js.LICENSE.txt": "/static/js/2.47a6aa15.chunk.js.LICENSE.txt",
+    "static/css/2.dbc3967e.chunk.css.map": "/static/css/2.dbc3967e.chunk.css.map",
+    "static/css/main.413d6486.chunk.css.map": "/static/css/main.413d6486.chunk.css.map",
+    "static/js/2.23e888c2.chunk.js.LICENSE.txt": "/static/js/2.23e888c2.chunk.js.LICENSE.txt",
     "static/media/about.e6c24150.png": "/static/media/about.e6c24150.png",
     "static/media/blog.ad7102d8.jpg": "/static/media/blog.ad7102d8.jpg",
     "static/media/Header.css": "/static/media/cover.e61e79f8.png",
@@ -21,13 +21,14 @@
     "static/media/pokedex-pokemon.f6a52bd4.jpg": "/static/media/pokedex-pokemon.f6a52bd4.jpg",
     "static/media/pokedex.03da9436.jpg": "/static/media/pokedex.03da9436.jpg",
     "static/media/portfolio.cb1e2122.jpg": "/static/media/portfolio.cb1e2122.jpg",
-    "static/media/portfolioProjects.fd978729.jpg": "/static/media/portfolioProjects.fd978729.jpg"
+    "static/media/portfolioProjects.fd978729.jpg": "/static/media/portfolioProjects.fd978729.jpg",
+    "static/media/todoapp.9ecf0773.png": "/static/media/todoapp.9ecf0773.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
-    "static/css/2.6ef2fac9.chunk.css",
-    "static/js/2.47a6aa15.chunk.js",
-    "static/css/main.5ec19129.chunk.css",
-    "static/js/main.7e62bb6d.chunk.js"
+    "static/css/2.dbc3967e.chunk.css",
+    "static/js/2.23e888c2.chunk.js",
+    "static/css/main.413d6486.chunk.css",
+    "static/js/main.ccb5551e.chunk.js"
   ]
 }
