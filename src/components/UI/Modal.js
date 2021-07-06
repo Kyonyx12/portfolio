@@ -27,7 +27,7 @@ export default function Modal({ selected, handleModal }) {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <Carousel style={{ maxWidth: "50%" }}>
+        <Carousel style={{ maxWidth: "50%", backgroundColor: "#fff" }}>
           <Carousel.Item>
             <div
               className="d-flex justify-content-center "

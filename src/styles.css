@@ -111,6 +111,7 @@ div.alt:hover span {
   border-radius: 12px;
   background-color: #00000099;
 }
+
 @keyframes popUp {
   0% {
     z-index: 1;
