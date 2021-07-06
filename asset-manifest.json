@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.413d6486.chunk.css",
-    "main.js": "/static/js/main.ccb5551e.chunk.js",
-    "main.js.map": "/static/js/main.ccb5551e.chunk.js.map",
+    "main.css": "/static/css/main.4139f68b.chunk.css",
+    "main.js": "/static/js/main.910656dc.chunk.js",
+    "main.js.map": "/static/js/main.910656dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.dbc3967e.chunk.css": "/static/css/2.dbc3967e.chunk.css",
@@ -10,10 +10,12 @@
     "static/js/2.23e888c2.chunk.js.map": "/static/js/2.23e888c2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.dbc3967e.chunk.css.map": "/static/css/2.dbc3967e.chunk.css.map",
-    "static/css/main.413d6486.chunk.css.map": "/static/css/main.413d6486.chunk.css.map",
+    "static/css/main.4139f68b.chunk.css.map": "/static/css/main.4139f68b.chunk.css.map",
     "static/js/2.23e888c2.chunk.js.LICENSE.txt": "/static/js/2.23e888c2.chunk.js.LICENSE.txt",
     "static/media/about.e6c24150.png": "/static/media/about.e6c24150.png",
     "static/media/blog.ad7102d8.jpg": "/static/media/blog.ad7102d8.jpg",
+    "static/media/cinemApp-individual.825d2b19.jpg": "/static/media/cinemApp-individual.825d2b19.jpg",
+    "static/media/cinemApp.ec10cc4e.jpg": "/static/media/cinemApp.ec10cc4e.jpg",
     "static/media/Header.css": "/static/media/cover.e61e79f8.png",
     "static/media/memory-game-win.54d3a310.jpg": "/static/media/memory-game-win.54d3a310.jpg",
     "static/media/memory-game.e9ebc888.jpg": "/static/media/memory-game.e9ebc888.jpg",
@@ -28,7 +30,7 @@
     "static/js/runtime-main.b83279d6.js",
     "static/css/2.dbc3967e.chunk.css",
     "static/js/2.23e888c2.chunk.js",
-    "static/css/main.413d6486.chunk.css",
-    "static/js/main.ccb5551e.chunk.js"
+    "static/css/main.4139f68b.chunk.css",
+    "static/js/main.910656dc.chunk.js"
   ]
 }
