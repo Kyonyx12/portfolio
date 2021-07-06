@@ -14,7 +14,7 @@ export default function Modal({ selected, handleModal }) {
     <div className={classes.modal}>
       <div className="d-flex justify-content-center">
         <div
-          style={{ backgroundColor: "#fff", width: "50vw" }}
+          style={{ backgroundColor: "#fff", width: "80vw" }}
           className="d-flex justify-content-end"
         >
           <RiCloseCircleLine
@@ -27,11 +27,11 @@ export default function Modal({ selected, handleModal }) {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <Carousel style={{ maxWidth: "50%", backgroundColor: "#fff" }}>
+        <Carousel style={{ maxWidth: "80%", backgroundColor: "#fff" }}>
           <Carousel.Item>
             <div
               className="d-flex justify-content-center "
-              style={{ height: "600px", minWidth: "50vw" }}
+              style={{ height: "600px", minWidth: "80vw" }}
             >
               <img
                 src={img[0]}
@@ -43,7 +43,7 @@ export default function Modal({ selected, handleModal }) {
           <Carousel.Item>
             <div
               className="d-flex justify-content-center "
-              style={{ height: "600px", minWidth: "50vw" }}
+              style={{ height: "600px", minWidth: "80vw" }}
             >
               <img
                 src={img[1]}
@@ -56,7 +56,7 @@ export default function Modal({ selected, handleModal }) {
       </div>
       <div className="d-flex justify-content-center">
         <div
-          style={{ backgroundColor: "#fff", width: "50vw" }}
+          style={{ backgroundColor: "#fff", width: "80vw" }}
           className="d-flex justify-content-center"
         >
           <a target="_blank" rel="noreferrer" href={site}>
